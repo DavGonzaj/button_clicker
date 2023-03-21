@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- /*---------------nav bar-----------*/ -->
+  <div class="nav">
+    <!-- /*---------------nav header-----------*/ -->
+    <div class="head">
+      <h1 class="nav-title">Dojonary</h1>
+    </div>
+    <!-- /*---------------nav content-----------*/ -->
+    <div class="nav_content">
+      <!-- /*---------------nav searchbar-----------*/ -->
+      <input class="search_bar" type="text" name="last_name" placeholder="Search">
+    </div>
+    <!-- /*---------------nav button-----------*/ -->
+    <button class="btn" onclick="logOut(this)">Log in</button>
+  </div>
+  <!-- /*---------------middle body-----------*/ -->
+  <div class="mid_body">
+    <!-- /*---------------left column-----------*/ -->
+    <div class="col1">
+      <!-- /*---------------1st ninja box-----------*/ -->
+      <div class="ninja1">
+        <!-- /*---------------nija text top-----------*/ -->
+        <div class="ninja_inside">
+          <h1>ninja</h1>
+          <!-- /*---------------pronunciation pic-----------*/ -->
+          <img src="img/pronunciation.png" alt="pronunciation pic">
+          <h2><em>noun</em></h2>
+          <div class="def_top">
+            <p>A paracticioner skilled in the<br><a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+          </div>
+          <!-- /*---------------Pural sub text-----------*/ -->
+          <div class="plural">
+            <h3>Plural : ninjas</h3>
+          </div>
+          <!-- /*---------------top box button-----------*/ -->
+          <div class="button_ninja1">
+            <button class="like_button2" onclick="popUp(this)">13 Likes</button>
+          </div>
+        </div>
+        <div class="ninja2">
+          <div class="ninja_inside2">
+            <h1>ninja</h1>
+            <!-- /*---------------pronunciation pic-----------*/ -->
+            <img src="img/pronunciation.png" alt="pronunciation pic">
+            <h2><em>noun</em></h2>
+            <div class="def_bottom">
+              <p>A <a href="#">programmer</a> who breaks<br> down problems with <a href="#">zen</a>-like focus. </p>
+            </div>
+            <!-- /*---------------Pural sub text-----------*/ -->
+            <div class="plural2">
+              <h3>Plural : ninjas</h3>
+            </div>
+            <!-- /*---------------bottom box button-----------*/ -->
+            <div class="button_ninja2">
+              <button class="like_button" onclick="popUp(this)">37 Likes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /*---------------right column-----------*/ -->
+    <div class="test">
+    <div class="col2">
+      <div class="body2">
+        <!-- /*---------------insside of bos-----------*/ -->
+        <p>Dojonary is<br> defined by <strong>YOU</strong></p>
+        <div class="right_but"> 
+          <!-- /*---------------button on right-----------*/ -->
+          <button class="defbut" onclick="hideBut(this)"> Add Definition</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
